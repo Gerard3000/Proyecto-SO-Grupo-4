@@ -119,3 +119,24 @@ C:\SO\ProyectoSO\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.G
 C:\SO\ProyectoSO\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
 C:\SO\ProyectoSO\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\SO\ProyectoSO\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\ubuntu shared\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\gerar\Downloads\proyecto\Proyecto-SO-Grupo-4-main\cliente\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
