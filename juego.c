@@ -11,6 +11,7 @@
 
 typedef struct{
 	char usuario[20];
+	int socket;
 } Tusuario;
 
 typedef struct{
@@ -22,23 +23,68 @@ int contador;
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 int i;
 int sockets[100];
-/*
+
+/*char listaUsuarios(){
+	char lista[200];
+	sprintf(lista, "%s", conectados.usuarios[0].usuario);
+	if(conectados.num>1){
+		for(int w=1; w<conectados.num; w++)
+			sprintf(lista, "%s/%s" ,lista, conectados.usuarios[w].usuario);
+	}
+	return lista;
+}*/
+void broadcast(char enviar[200]){
+	for(int w=0; w<conectados.num; w++)
+	write(conectados.usuarios[w].socket, enviar, strlen(enviar));
+}
 int EliminarConectado(char usuario[20]){
-	pthread_mutex_lock( &mutex );
-	for(int i=0; i<conectados.num; i++){
-		if(strcmp(conectados.usuarios[i].usuario, usuario)){
-			for(int j=i; j<conectados.num-1; j++)
-				strcpy(conectados.usuarios[i].usuario, conectados.usuarios[j+1].usuario);
+	char enviar[200];
+	char lista[200];
+	for(int j=0; j<conectados.num; j++){
+		if(strcmp(conectados.usuarios[j].usuario, usuario)==0){
+			pthread_mutex_lock( &mutex );
+			for(int w=j; w<conectados.num-1; w++){
+				if(w!=conectados.num-1){
+					strcpy(conectados.usuarios[w].usuario, conectados.usuarios[w+1].usuario);
+					conectados.usuarios[w].socket = conectados.usuarios[w+1].socket;
+				}
+			}
 			conectados.num--;
 			pthread_mutex_unlock( &mutex);
-			return 1;
+			sprintf(lista, "%s", conectados.usuarios[0].usuario);
+			if(conectados.num>1){
+				for(int w=1; w<conectados.num; w++)
+					sprintf(lista, "%s,%s" ,lista, conectados.usuarios[w].usuario);
+			}
+			printf("Lista= %s\n", lista);
+			sprintf(enviar,"4/%s",lista);
+			printf("%s\n" ,enviar);
+			broadcast(enviar);
 		}
 	}
-	pthread_mutex_unlock( &mutex);
 	return -1;
 }
-*/
 
+void AnadirConectado(char usuario[20]){
+	char enviar[200];
+	char lista[200];
+	pthread_mutex_lock( &mutex );
+	strcpy(conectados.usuarios[conectados.num].usuario, usuario);
+	conectados.usuarios[conectados.num].socket = sockets[i];
+	conectados.num++;
+	pthread_mutex_unlock( &mutex);
+	printf("Nuevo usuario conectado %d: %s\n" , conectados.num, conectados.usuarios[conectados.num-1].usuario);
+	
+	sprintf(lista, "%s", conectados.usuarios[0].usuario);
+	if(conectados.num>1){
+		for(int w=1; w<conectados.num; w++)
+			sprintf(lista, "%s,%s" ,lista, conectados.usuarios[w].usuario);
+	}
+	printf("Lista= %s\n", lista);
+	sprintf(enviar,"4/%s",lista);
+	printf("%s\n" ,enviar);
+	broadcast(enviar);
+}
 
 //Estructura necesaria para acceso excluyent
 
@@ -105,18 +151,8 @@ void *AtenderCliente (void *socket)
 			strcpy(usuario,strtok(NULL, "/"));
 			if(strcmp(usuario, "No iniciado")==0)
 				sprintf(enviar, "3/Terminal desconectado!");
-	
 			else{
-				for(int i=0; i<conectados.num; i++){
-					if(strcmp(conectados.usuarios[i].usuario, usuario)==0){
-						pthread_mutex_lock( &mutex );
-						for(int j=i; j<conectados.num-1; j++)
-							strcpy(conectados.usuarios[i].usuario, conectados.usuarios[j+1].usuario);
-						conectados.num--;
-						pthread_mutex_unlock( &mutex);
-					}
-				}
-				pthread_mutex_unlock( &mutex);
+				EliminarConectado(usuario);
 				sprintf(enviar, "3/Usuario %s desconectado!" ,usuario);
 			}
 			terminar=1;
@@ -145,11 +181,7 @@ void *AtenderCliente (void *socket)
 				sprintf(enviar, "1/Usuario o Contrasena invalido!!");
 			}
 			else{
-				pthread_mutex_lock( &mutex );
-				strcpy(conectados.usuarios[conectados.num].usuario, usuario);
-				conectados.num++;
-				pthread_mutex_unlock( &mutex);
-				printf("Nuevo usuario conectado %d: %s\n" , conectados.num, conectados.usuarios[conectados.num-1].usuario);
+				AnadirConectado(usuario);
 				sprintf(enviar, "2/ Login Completado!!");
 			}
 
@@ -270,21 +302,7 @@ void *AtenderCliente (void *socket)
 				
 				sprintf(enviar, "1/El usuario %s ha jugado %s partidas",usuario, respuesta);
 		}
-		if(codigo == 6){
-			strcpy(respuesta, conectados.usuarios[0].usuario);
-			if(respuesta!=NULL && conectados.num>1){
-				for(int j=1; j<conectados.num; j++){
-					sprintf(respuesta, "%s,%s", respuesta, conectados.usuarios[j].usuario);
-				}
-			}
-			else if(respuesta == NULL){
-				sprintf(respuesta, "Ninguno");
-			}
-			sprintf(enviar, "1/Usuarios Conectados: %s", respuesta);
-			
-		}
-	
-	
+		
 		printf ("Enviamos: %s\n", enviar);
 		// Enviamos respuesta
 		write (sock_conn, enviar, strlen(enviar));
@@ -316,7 +334,7 @@ int main(int argc, char *argv[])
 	//htonl formatea el numero que recibe al formato necesario
 	serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
 	// establecemos el puerto de escucha
-	serv_adr.sin_port = htons(9061);
+	serv_adr.sin_port = htons(50075);
 	if (bind(sock_listen, (struct sockaddr *) &serv_adr, sizeof(serv_adr)) < 0)
 		printf ("Error al bind");
 	

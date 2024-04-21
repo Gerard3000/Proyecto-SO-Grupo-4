@@ -58,7 +58,19 @@ namespace WindowsFormsApplication1
                         server.Close();
                         break;
                     case 4:     //Recibimos notificacion
+                      
+                        string[] subtrozos = mensaje.Split(',');
+                        int num = Convert.ToInt32(subtrozos.Length);
 
+                        this.dataGridView1.Rows.Clear();
+
+                        for (int i = 0; i < num; i++)
+                        {
+                            this.dataGridView1.Rows.Insert(i, subtrozos[i ]);
+                            if (subtrozos[i ] == usuario2.Text)
+                                this.dataGridView1.Rows[i].DefaultCellStyle.ForeColor = Color.Gray;
+                        }
+                        this.dataGridView1.ClearSelection();
                         break;
                     case 5:     //Recibimos notificacion
 
@@ -78,8 +90,8 @@ namespace WindowsFormsApplication1
         {
             //Creamos un IPEndPoint con el ip del servidor y puerto del servidor 
             //al que deseamos conectarnos
-            IPAddress direc = IPAddress.Parse("192.168.56.102");
-            IPEndPoint ipep = new IPEndPoint(direc, 9061);
+            IPAddress direc = IPAddress.Parse("10.4.119.5");
+            IPEndPoint ipep = new IPEndPoint(direc, 50075);
             
 
             //Creamos el socket 
@@ -309,6 +321,11 @@ namespace WindowsFormsApplication1
         }
 
         private void Estado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
