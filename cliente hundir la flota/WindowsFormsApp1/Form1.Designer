@@ -1,0 +1,1086 @@
+﻿namespace WindowsFormsApp1
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.miFlota = new System.Windows.Forms.GroupBox();
+            this.A1_1 = new System.Windows.Forms.Button();
+            this.F6_1 = new System.Windows.Forms.Button();
+            this.F5_1 = new System.Windows.Forms.Button();
+            this.F4_1 = new System.Windows.Forms.Button();
+            this.F3_1 = new System.Windows.Forms.Button();
+            this.F2_1 = new System.Windows.Forms.Button();
+            this.F1_1 = new System.Windows.Forms.Button();
+            this.E6_1 = new System.Windows.Forms.Button();
+            this.E5_1 = new System.Windows.Forms.Button();
+            this.E4_1 = new System.Windows.Forms.Button();
+            this.E3_1 = new System.Windows.Forms.Button();
+            this.E2_1 = new System.Windows.Forms.Button();
+            this.E1_1 = new System.Windows.Forms.Button();
+            this.D6_1 = new System.Windows.Forms.Button();
+            this.D5_1 = new System.Windows.Forms.Button();
+            this.D4_1 = new System.Windows.Forms.Button();
+            this.D3_1 = new System.Windows.Forms.Button();
+            this.D2_1 = new System.Windows.Forms.Button();
+            this.D1_1 = new System.Windows.Forms.Button();
+            this.C6_1 = new System.Windows.Forms.Button();
+            this.C5_1 = new System.Windows.Forms.Button();
+            this.C4_1 = new System.Windows.Forms.Button();
+            this.C3_1 = new System.Windows.Forms.Button();
+            this.C2_1 = new System.Windows.Forms.Button();
+            this.C1_1 = new System.Windows.Forms.Button();
+            this.B6_1 = new System.Windows.Forms.Button();
+            this.B5_1 = new System.Windows.Forms.Button();
+            this.B4_1 = new System.Windows.Forms.Button();
+            this.B3_1 = new System.Windows.Forms.Button();
+            this.B2_1 = new System.Windows.Forms.Button();
+            this.B1_1 = new System.Windows.Forms.Button();
+            this.A6_1 = new System.Windows.Forms.Button();
+            this.A5_1 = new System.Windows.Forms.Button();
+            this.A4_1 = new System.Windows.Forms.Button();
+            this.A3_1 = new System.Windows.Forms.Button();
+            this.A2_1 = new System.Windows.Forms.Button();
+            this.notificacionesLbl = new System.Windows.Forms.Label();
+            this.suFlota = new System.Windows.Forms.GroupBox();
+            this.F6_2 = new System.Windows.Forms.Button();
+            this.F5_2 = new System.Windows.Forms.Button();
+            this.F4_2 = new System.Windows.Forms.Button();
+            this.F3_2 = new System.Windows.Forms.Button();
+            this.F2_2 = new System.Windows.Forms.Button();
+            this.F1_2 = new System.Windows.Forms.Button();
+            this.E6_2 = new System.Windows.Forms.Button();
+            this.E5_2 = new System.Windows.Forms.Button();
+            this.E4_2 = new System.Windows.Forms.Button();
+            this.E2_2 = new System.Windows.Forms.Button();
+            this.E1_2 = new System.Windows.Forms.Button();
+            this.D6_2 = new System.Windows.Forms.Button();
+            this.D5_2 = new System.Windows.Forms.Button();
+            this.D4_2 = new System.Windows.Forms.Button();
+            this.D3_2 = new System.Windows.Forms.Button();
+            this.D2_2 = new System.Windows.Forms.Button();
+            this.D1_2 = new System.Windows.Forms.Button();
+            this.C6_2 = new System.Windows.Forms.Button();
+            this.C5_2 = new System.Windows.Forms.Button();
+            this.C4_2 = new System.Windows.Forms.Button();
+            this.C3_2 = new System.Windows.Forms.Button();
+            this.C2_2 = new System.Windows.Forms.Button();
+            this.C1_2 = new System.Windows.Forms.Button();
+            this.B6_2 = new System.Windows.Forms.Button();
+            this.B5_2 = new System.Windows.Forms.Button();
+            this.B4_2 = new System.Windows.Forms.Button();
+            this.B3_2 = new System.Windows.Forms.Button();
+            this.B2_2 = new System.Windows.Forms.Button();
+            this.B1_2 = new System.Windows.Forms.Button();
+            this.A6_2 = new System.Windows.Forms.Button();
+            this.A5_2 = new System.Windows.Forms.Button();
+            this.A4_2 = new System.Windows.Forms.Button();
+            this.A3_2 = new System.Windows.Forms.Button();
+            this.A2_2 = new System.Windows.Forms.Button();
+            this.A1_2 = new System.Windows.Forms.Button();
+            this.seleccion1Lbl = new System.Windows.Forms.Label();
+            this.confirmar = new System.Windows.Forms.Button();
+            this.rendirse = new System.Windows.Forms.Button();
+            this.estadoTableroLbl = new System.Windows.Forms.Label();
+            this.seleccion2Lbl = new System.Windows.Forms.Label();
+            this.seleccion3Lbl = new System.Windows.Forms.Label();
+            this.seleccion4Lbl = new System.Windows.Forms.Label();
+            this.seleccion5Lbl = new System.Windows.Forms.Label();
+            this.estadoPartidaLbl = new System.Windows.Forms.Label();
+            this.adversarioLbl = new System.Windows.Forms.Label();
+            this.atacarLbl = new System.Windows.Forms.Label();
+            this.E3_2 = new System.Windows.Forms.Button();
+            this.miFlota.SuspendLayout();
+            this.suFlota.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // miFlota
+            // 
+            this.miFlota.Controls.Add(this.A1_1);
+            this.miFlota.Controls.Add(this.F6_1);
+            this.miFlota.Controls.Add(this.F5_1);
+            this.miFlota.Controls.Add(this.F4_1);
+            this.miFlota.Controls.Add(this.F3_1);
+            this.miFlota.Controls.Add(this.F2_1);
+            this.miFlota.Controls.Add(this.F1_1);
+            this.miFlota.Controls.Add(this.E6_1);
+            this.miFlota.Controls.Add(this.E5_1);
+            this.miFlota.Controls.Add(this.E4_1);
+            this.miFlota.Controls.Add(this.E3_1);
+            this.miFlota.Controls.Add(this.E2_1);
+            this.miFlota.Controls.Add(this.E1_1);
+            this.miFlota.Controls.Add(this.D6_1);
+            this.miFlota.Controls.Add(this.D5_1);
+            this.miFlota.Controls.Add(this.D4_1);
+            this.miFlota.Controls.Add(this.D3_1);
+            this.miFlota.Controls.Add(this.D2_1);
+            this.miFlota.Controls.Add(this.D1_1);
+            this.miFlota.Controls.Add(this.C6_1);
+            this.miFlota.Controls.Add(this.C5_1);
+            this.miFlota.Controls.Add(this.C4_1);
+            this.miFlota.Controls.Add(this.C3_1);
+            this.miFlota.Controls.Add(this.C2_1);
+            this.miFlota.Controls.Add(this.C1_1);
+            this.miFlota.Controls.Add(this.B6_1);
+            this.miFlota.Controls.Add(this.B5_1);
+            this.miFlota.Controls.Add(this.B4_1);
+            this.miFlota.Controls.Add(this.B3_1);
+            this.miFlota.Controls.Add(this.B2_1);
+            this.miFlota.Controls.Add(this.B1_1);
+            this.miFlota.Controls.Add(this.A6_1);
+            this.miFlota.Controls.Add(this.A5_1);
+            this.miFlota.Controls.Add(this.A4_1);
+            this.miFlota.Controls.Add(this.A3_1);
+            this.miFlota.Controls.Add(this.A2_1);
+            this.miFlota.Location = new System.Drawing.Point(53, 91);
+            this.miFlota.Name = "miFlota";
+            this.miFlota.Size = new System.Drawing.Size(214, 223);
+            this.miFlota.TabIndex = 1;
+            this.miFlota.TabStop = false;
+            // 
+            // A1_1
+            // 
+            this.A1_1.Location = new System.Drawing.Point(5, 11);
+            this.A1_1.Name = "A1_1";
+            this.A1_1.Size = new System.Drawing.Size(35, 35);
+            this.A1_1.TabIndex = 60;
+            this.A1_1.Text = "A1";
+            this.A1_1.UseVisualStyleBackColor = true;
+            this.A1_1.Click += new System.EventHandler(this.A1_1_Click);
+            // 
+            // F6_1
+            // 
+            this.F6_1.Location = new System.Drawing.Point(175, 181);
+            this.F6_1.Name = "F6_1";
+            this.F6_1.Size = new System.Drawing.Size(35, 35);
+            this.F6_1.TabIndex = 59;
+            this.F6_1.Text = "F6";
+            this.F6_1.UseVisualStyleBackColor = true;
+            // 
+            // F5_1
+            // 
+            this.F5_1.Location = new System.Drawing.Point(175, 147);
+            this.F5_1.Name = "F5_1";
+            this.F5_1.Size = new System.Drawing.Size(35, 35);
+            this.F5_1.TabIndex = 58;
+            this.F5_1.Text = "F5";
+            this.F5_1.UseVisualStyleBackColor = true;
+            // 
+            // F4_1
+            // 
+            this.F4_1.Location = new System.Drawing.Point(175, 113);
+            this.F4_1.Name = "F4_1";
+            this.F4_1.Size = new System.Drawing.Size(35, 35);
+            this.F4_1.TabIndex = 57;
+            this.F4_1.Text = "F4";
+            this.F4_1.UseVisualStyleBackColor = true;
+            // 
+            // F3_1
+            // 
+            this.F3_1.Location = new System.Drawing.Point(175, 79);
+            this.F3_1.Name = "F3_1";
+            this.F3_1.Size = new System.Drawing.Size(35, 35);
+            this.F3_1.TabIndex = 56;
+            this.F3_1.Text = "F3";
+            this.F3_1.UseVisualStyleBackColor = true;
+            // 
+            // F2_1
+            // 
+            this.F2_1.Location = new System.Drawing.Point(175, 45);
+            this.F2_1.Name = "F2_1";
+            this.F2_1.Size = new System.Drawing.Size(35, 35);
+            this.F2_1.TabIndex = 55;
+            this.F2_1.Text = "F2";
+            this.F2_1.UseVisualStyleBackColor = true;
+            // 
+            // F1_1
+            // 
+            this.F1_1.Location = new System.Drawing.Point(175, 11);
+            this.F1_1.Name = "F1_1";
+            this.F1_1.Size = new System.Drawing.Size(35, 35);
+            this.F1_1.TabIndex = 54;
+            this.F1_1.Text = "F1";
+            this.F1_1.UseVisualStyleBackColor = true;
+            // 
+            // E6_1
+            // 
+            this.E6_1.Location = new System.Drawing.Point(141, 181);
+            this.E6_1.Name = "E6_1";
+            this.E6_1.Size = new System.Drawing.Size(35, 35);
+            this.E6_1.TabIndex = 49;
+            this.E6_1.Text = "E6";
+            this.E6_1.UseVisualStyleBackColor = true;
+            // 
+            // E5_1
+            // 
+            this.E5_1.Location = new System.Drawing.Point(141, 147);
+            this.E5_1.Name = "E5_1";
+            this.E5_1.Size = new System.Drawing.Size(35, 35);
+            this.E5_1.TabIndex = 48;
+            this.E5_1.Text = "E5";
+            this.E5_1.UseVisualStyleBackColor = true;
+            // 
+            // E4_1
+            // 
+            this.E4_1.Location = new System.Drawing.Point(141, 113);
+            this.E4_1.Name = "E4_1";
+            this.E4_1.Size = new System.Drawing.Size(35, 35);
+            this.E4_1.TabIndex = 47;
+            this.E4_1.Text = "E4";
+            this.E4_1.UseVisualStyleBackColor = true;
+            // 
+            // E3_1
+            // 
+            this.E3_1.Location = new System.Drawing.Point(141, 79);
+            this.E3_1.Name = "E3_1";
+            this.E3_1.Size = new System.Drawing.Size(35, 35);
+            this.E3_1.TabIndex = 46;
+            this.E3_1.Text = "E3";
+            this.E3_1.UseVisualStyleBackColor = true;
+            // 
+            // E2_1
+            // 
+            this.E2_1.Location = new System.Drawing.Point(141, 45);
+            this.E2_1.Name = "E2_1";
+            this.E2_1.Size = new System.Drawing.Size(35, 35);
+            this.E2_1.TabIndex = 45;
+            this.E2_1.Text = "E2";
+            this.E2_1.UseVisualStyleBackColor = true;
+            // 
+            // E1_1
+            // 
+            this.E1_1.Location = new System.Drawing.Point(141, 11);
+            this.E1_1.Name = "E1_1";
+            this.E1_1.Size = new System.Drawing.Size(35, 35);
+            this.E1_1.TabIndex = 44;
+            this.E1_1.Text = "E1";
+            this.E1_1.UseVisualStyleBackColor = true;
+            // 
+            // D6_1
+            // 
+            this.D6_1.Location = new System.Drawing.Point(107, 181);
+            this.D6_1.Name = "D6_1";
+            this.D6_1.Size = new System.Drawing.Size(35, 35);
+            this.D6_1.TabIndex = 39;
+            this.D6_1.Text = "D6";
+            this.D6_1.UseVisualStyleBackColor = true;
+            // 
+            // D5_1
+            // 
+            this.D5_1.Location = new System.Drawing.Point(107, 147);
+            this.D5_1.Name = "D5_1";
+            this.D5_1.Size = new System.Drawing.Size(35, 35);
+            this.D5_1.TabIndex = 38;
+            this.D5_1.Text = "D5";
+            this.D5_1.UseVisualStyleBackColor = true;
+            // 
+            // D4_1
+            // 
+            this.D4_1.Location = new System.Drawing.Point(107, 113);
+            this.D4_1.Name = "D4_1";
+            this.D4_1.Size = new System.Drawing.Size(35, 35);
+            this.D4_1.TabIndex = 37;
+            this.D4_1.Text = "D4";
+            this.D4_1.UseVisualStyleBackColor = true;
+            // 
+            // D3_1
+            // 
+            this.D3_1.Location = new System.Drawing.Point(107, 79);
+            this.D3_1.Name = "D3_1";
+            this.D3_1.Size = new System.Drawing.Size(35, 35);
+            this.D3_1.TabIndex = 36;
+            this.D3_1.Text = "D3";
+            this.D3_1.UseVisualStyleBackColor = true;
+            // 
+            // D2_1
+            // 
+            this.D2_1.Location = new System.Drawing.Point(107, 45);
+            this.D2_1.Name = "D2_1";
+            this.D2_1.Size = new System.Drawing.Size(35, 35);
+            this.D2_1.TabIndex = 35;
+            this.D2_1.Text = "D2";
+            this.D2_1.UseVisualStyleBackColor = true;
+            // 
+            // D1_1
+            // 
+            this.D1_1.Location = new System.Drawing.Point(107, 11);
+            this.D1_1.Name = "D1_1";
+            this.D1_1.Size = new System.Drawing.Size(35, 35);
+            this.D1_1.TabIndex = 34;
+            this.D1_1.Text = "D1";
+            this.D1_1.UseVisualStyleBackColor = true;
+            // 
+            // C6_1
+            // 
+            this.C6_1.Location = new System.Drawing.Point(73, 181);
+            this.C6_1.Name = "C6_1";
+            this.C6_1.Size = new System.Drawing.Size(35, 35);
+            this.C6_1.TabIndex = 29;
+            this.C6_1.Text = "C6";
+            this.C6_1.UseVisualStyleBackColor = true;
+            // 
+            // C5_1
+            // 
+            this.C5_1.Location = new System.Drawing.Point(73, 147);
+            this.C5_1.Name = "C5_1";
+            this.C5_1.Size = new System.Drawing.Size(35, 35);
+            this.C5_1.TabIndex = 28;
+            this.C5_1.Text = "C5";
+            this.C5_1.UseVisualStyleBackColor = true;
+            // 
+            // C4_1
+            // 
+            this.C4_1.Location = new System.Drawing.Point(73, 113);
+            this.C4_1.Name = "C4_1";
+            this.C4_1.Size = new System.Drawing.Size(35, 35);
+            this.C4_1.TabIndex = 27;
+            this.C4_1.Text = "C4";
+            this.C4_1.UseVisualStyleBackColor = true;
+            // 
+            // C3_1
+            // 
+            this.C3_1.Location = new System.Drawing.Point(73, 79);
+            this.C3_1.Name = "C3_1";
+            this.C3_1.Size = new System.Drawing.Size(35, 35);
+            this.C3_1.TabIndex = 26;
+            this.C3_1.Text = "C3";
+            this.C3_1.UseVisualStyleBackColor = true;
+            // 
+            // C2_1
+            // 
+            this.C2_1.Location = new System.Drawing.Point(73, 45);
+            this.C2_1.Name = "C2_1";
+            this.C2_1.Size = new System.Drawing.Size(35, 35);
+            this.C2_1.TabIndex = 25;
+            this.C2_1.Text = "C2";
+            this.C2_1.UseVisualStyleBackColor = true;
+            // 
+            // C1_1
+            // 
+            this.C1_1.Location = new System.Drawing.Point(73, 11);
+            this.C1_1.Name = "C1_1";
+            this.C1_1.Size = new System.Drawing.Size(35, 35);
+            this.C1_1.TabIndex = 24;
+            this.C1_1.Text = "C1";
+            this.C1_1.UseVisualStyleBackColor = true;
+            // 
+            // B6_1
+            // 
+            this.B6_1.Location = new System.Drawing.Point(39, 181);
+            this.B6_1.Name = "B6_1";
+            this.B6_1.Size = new System.Drawing.Size(35, 35);
+            this.B6_1.TabIndex = 19;
+            this.B6_1.Text = "B6";
+            this.B6_1.UseVisualStyleBackColor = true;
+            // 
+            // B5_1
+            // 
+            this.B5_1.Location = new System.Drawing.Point(39, 147);
+            this.B5_1.Name = "B5_1";
+            this.B5_1.Size = new System.Drawing.Size(35, 35);
+            this.B5_1.TabIndex = 18;
+            this.B5_1.Text = "B5";
+            this.B5_1.UseVisualStyleBackColor = true;
+            // 
+            // B4_1
+            // 
+            this.B4_1.Location = new System.Drawing.Point(39, 113);
+            this.B4_1.Name = "B4_1";
+            this.B4_1.Size = new System.Drawing.Size(35, 35);
+            this.B4_1.TabIndex = 17;
+            this.B4_1.Text = "B4";
+            this.B4_1.UseVisualStyleBackColor = true;
+            // 
+            // B3_1
+            // 
+            this.B3_1.Location = new System.Drawing.Point(39, 79);
+            this.B3_1.Name = "B3_1";
+            this.B3_1.Size = new System.Drawing.Size(35, 35);
+            this.B3_1.TabIndex = 16;
+            this.B3_1.Text = "B3";
+            this.B3_1.UseVisualStyleBackColor = true;
+            // 
+            // B2_1
+            // 
+            this.B2_1.Location = new System.Drawing.Point(39, 45);
+            this.B2_1.Name = "B2_1";
+            this.B2_1.Size = new System.Drawing.Size(35, 35);
+            this.B2_1.TabIndex = 15;
+            this.B2_1.Text = "B2";
+            this.B2_1.UseVisualStyleBackColor = true;
+            // 
+            // B1_1
+            // 
+            this.B1_1.Location = new System.Drawing.Point(39, 11);
+            this.B1_1.Name = "B1_1";
+            this.B1_1.Size = new System.Drawing.Size(35, 35);
+            this.B1_1.TabIndex = 14;
+            this.B1_1.Text = "B1";
+            this.B1_1.UseVisualStyleBackColor = true;
+            // 
+            // A6_1
+            // 
+            this.A6_1.Location = new System.Drawing.Point(5, 181);
+            this.A6_1.Name = "A6_1";
+            this.A6_1.Size = new System.Drawing.Size(35, 35);
+            this.A6_1.TabIndex = 9;
+            this.A6_1.Text = "A6";
+            this.A6_1.UseVisualStyleBackColor = true;
+            // 
+            // A5_1
+            // 
+            this.A5_1.Location = new System.Drawing.Point(5, 147);
+            this.A5_1.Name = "A5_1";
+            this.A5_1.Size = new System.Drawing.Size(35, 35);
+            this.A5_1.TabIndex = 8;
+            this.A5_1.Text = "A5";
+            this.A5_1.UseVisualStyleBackColor = true;
+            // 
+            // A4_1
+            // 
+            this.A4_1.Location = new System.Drawing.Point(5, 113);
+            this.A4_1.Name = "A4_1";
+            this.A4_1.Size = new System.Drawing.Size(35, 35);
+            this.A4_1.TabIndex = 7;
+            this.A4_1.Text = "A4";
+            this.A4_1.UseVisualStyleBackColor = true;
+            // 
+            // A3_1
+            // 
+            this.A3_1.Location = new System.Drawing.Point(5, 79);
+            this.A3_1.Name = "A3_1";
+            this.A3_1.Size = new System.Drawing.Size(35, 35);
+            this.A3_1.TabIndex = 6;
+            this.A3_1.Text = "A3";
+            this.A3_1.UseVisualStyleBackColor = true;
+            // 
+            // A2_1
+            // 
+            this.A2_1.Location = new System.Drawing.Point(5, 45);
+            this.A2_1.Name = "A2_1";
+            this.A2_1.Size = new System.Drawing.Size(35, 35);
+            this.A2_1.TabIndex = 5;
+            this.A2_1.Text = "A2";
+            this.A2_1.UseVisualStyleBackColor = true;
+            // 
+            // notificacionesLbl
+            // 
+            this.notificacionesLbl.AutoSize = true;
+            this.notificacionesLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notificacionesLbl.Location = new System.Drawing.Point(77, 329);
+            this.notificacionesLbl.Name = "notificacionesLbl";
+            this.notificacionesLbl.Size = new System.Drawing.Size(613, 36);
+            this.notificacionesLbl.TabIndex = 3;
+            this.notificacionesLbl.Text = "Selecciona tu caza de 5 unidades en linea";
+            // 
+            // suFlota
+            // 
+            this.suFlota.Controls.Add(this.F6_2);
+            this.suFlota.Controls.Add(this.F5_2);
+            this.suFlota.Controls.Add(this.F4_2);
+            this.suFlota.Controls.Add(this.F3_2);
+            this.suFlota.Controls.Add(this.F2_2);
+            this.suFlota.Controls.Add(this.F1_2);
+            this.suFlota.Controls.Add(this.E6_2);
+            this.suFlota.Controls.Add(this.E5_2);
+            this.suFlota.Controls.Add(this.E4_2);
+            this.suFlota.Controls.Add(this.E3_2);
+            this.suFlota.Controls.Add(this.E2_2);
+            this.suFlota.Controls.Add(this.E1_2);
+            this.suFlota.Controls.Add(this.D6_2);
+            this.suFlota.Controls.Add(this.D5_2);
+            this.suFlota.Controls.Add(this.D4_2);
+            this.suFlota.Controls.Add(this.D3_2);
+            this.suFlota.Controls.Add(this.D2_2);
+            this.suFlota.Controls.Add(this.D1_2);
+            this.suFlota.Controls.Add(this.C6_2);
+            this.suFlota.Controls.Add(this.C5_2);
+            this.suFlota.Controls.Add(this.C4_2);
+            this.suFlota.Controls.Add(this.C3_2);
+            this.suFlota.Controls.Add(this.C2_2);
+            this.suFlota.Controls.Add(this.C1_2);
+            this.suFlota.Controls.Add(this.B6_2);
+            this.suFlota.Controls.Add(this.B5_2);
+            this.suFlota.Controls.Add(this.B4_2);
+            this.suFlota.Controls.Add(this.B3_2);
+            this.suFlota.Controls.Add(this.B2_2);
+            this.suFlota.Controls.Add(this.B1_2);
+            this.suFlota.Controls.Add(this.A6_2);
+            this.suFlota.Controls.Add(this.A5_2);
+            this.suFlota.Controls.Add(this.A4_2);
+            this.suFlota.Controls.Add(this.A3_2);
+            this.suFlota.Controls.Add(this.A2_2);
+            this.suFlota.Controls.Add(this.A1_2);
+            this.suFlota.Location = new System.Drawing.Point(496, 91);
+            this.suFlota.Name = "suFlota";
+            this.suFlota.Size = new System.Drawing.Size(215, 223);
+            this.suFlota.TabIndex = 93;
+            this.suFlota.TabStop = false;
+            // 
+            // F6_2
+            // 
+            this.F6_2.Location = new System.Drawing.Point(175, 181);
+            this.F6_2.Name = "F6_2";
+            this.F6_2.Size = new System.Drawing.Size(35, 35);
+            this.F6_2.TabIndex = 59;
+            this.F6_2.Text = "F6";
+            this.F6_2.UseVisualStyleBackColor = true;
+            // 
+            // F5_2
+            // 
+            this.F5_2.Location = new System.Drawing.Point(175, 147);
+            this.F5_2.Name = "F5_2";
+            this.F5_2.Size = new System.Drawing.Size(35, 35);
+            this.F5_2.TabIndex = 58;
+            this.F5_2.Text = "F5";
+            this.F5_2.UseVisualStyleBackColor = true;
+            // 
+            // F4_2
+            // 
+            this.F4_2.Location = new System.Drawing.Point(175, 113);
+            this.F4_2.Name = "F4_2";
+            this.F4_2.Size = new System.Drawing.Size(35, 35);
+            this.F4_2.TabIndex = 57;
+            this.F4_2.Text = "F4";
+            this.F4_2.UseVisualStyleBackColor = true;
+            // 
+            // F3_2
+            // 
+            this.F3_2.Location = new System.Drawing.Point(175, 79);
+            this.F3_2.Name = "F3_2";
+            this.F3_2.Size = new System.Drawing.Size(35, 35);
+            this.F3_2.TabIndex = 56;
+            this.F3_2.Text = "F3";
+            this.F3_2.UseVisualStyleBackColor = true;
+            // 
+            // F2_2
+            // 
+            this.F2_2.Location = new System.Drawing.Point(175, 45);
+            this.F2_2.Name = "F2_2";
+            this.F2_2.Size = new System.Drawing.Size(35, 35);
+            this.F2_2.TabIndex = 55;
+            this.F2_2.Text = "F2";
+            this.F2_2.UseVisualStyleBackColor = true;
+            // 
+            // F1_2
+            // 
+            this.F1_2.Location = new System.Drawing.Point(175, 11);
+            this.F1_2.Name = "F1_2";
+            this.F1_2.Size = new System.Drawing.Size(35, 35);
+            this.F1_2.TabIndex = 54;
+            this.F1_2.Text = "F1";
+            this.F1_2.UseVisualStyleBackColor = true;
+            // 
+            // E6_2
+            // 
+            this.E6_2.Location = new System.Drawing.Point(141, 181);
+            this.E6_2.Name = "E6_2";
+            this.E6_2.Size = new System.Drawing.Size(35, 35);
+            this.E6_2.TabIndex = 49;
+            this.E6_2.Text = "E6";
+            this.E6_2.UseVisualStyleBackColor = true;
+            // 
+            // E5_2
+            // 
+            this.E5_2.Location = new System.Drawing.Point(141, 147);
+            this.E5_2.Name = "E5_2";
+            this.E5_2.Size = new System.Drawing.Size(35, 35);
+            this.E5_2.TabIndex = 48;
+            this.E5_2.Text = "E5";
+            this.E5_2.UseVisualStyleBackColor = true;
+            // 
+            // E4_2
+            // 
+            this.E4_2.Location = new System.Drawing.Point(141, 113);
+            this.E4_2.Name = "E4_2";
+            this.E4_2.Size = new System.Drawing.Size(35, 35);
+            this.E4_2.TabIndex = 47;
+            this.E4_2.Text = "E4";
+            this.E4_2.UseVisualStyleBackColor = true;
+            // 
+            // E2_2
+            // 
+            this.E2_2.Location = new System.Drawing.Point(141, 45);
+            this.E2_2.Name = "E2_2";
+            this.E2_2.Size = new System.Drawing.Size(35, 35);
+            this.E2_2.TabIndex = 45;
+            this.E2_2.Text = "E2";
+            this.E2_2.UseVisualStyleBackColor = true;
+            // 
+            // E1_2
+            // 
+            this.E1_2.Location = new System.Drawing.Point(141, 11);
+            this.E1_2.Name = "E1_2";
+            this.E1_2.Size = new System.Drawing.Size(35, 35);
+            this.E1_2.TabIndex = 44;
+            this.E1_2.Text = "E1";
+            this.E1_2.UseVisualStyleBackColor = true;
+            // 
+            // D6_2
+            // 
+            this.D6_2.Location = new System.Drawing.Point(107, 181);
+            this.D6_2.Name = "D6_2";
+            this.D6_2.Size = new System.Drawing.Size(35, 35);
+            this.D6_2.TabIndex = 39;
+            this.D6_2.Text = "D6";
+            this.D6_2.UseVisualStyleBackColor = true;
+            // 
+            // D5_2
+            // 
+            this.D5_2.Location = new System.Drawing.Point(107, 147);
+            this.D5_2.Name = "D5_2";
+            this.D5_2.Size = new System.Drawing.Size(35, 35);
+            this.D5_2.TabIndex = 38;
+            this.D5_2.Text = "D5";
+            this.D5_2.UseVisualStyleBackColor = true;
+            // 
+            // D4_2
+            // 
+            this.D4_2.Location = new System.Drawing.Point(107, 113);
+            this.D4_2.Name = "D4_2";
+            this.D4_2.Size = new System.Drawing.Size(35, 35);
+            this.D4_2.TabIndex = 37;
+            this.D4_2.Text = "D4";
+            this.D4_2.UseVisualStyleBackColor = true;
+            // 
+            // D3_2
+            // 
+            this.D3_2.Location = new System.Drawing.Point(107, 79);
+            this.D3_2.Name = "D3_2";
+            this.D3_2.Size = new System.Drawing.Size(35, 35);
+            this.D3_2.TabIndex = 36;
+            this.D3_2.Text = "D3";
+            this.D3_2.UseVisualStyleBackColor = true;
+            // 
+            // D2_2
+            // 
+            this.D2_2.Location = new System.Drawing.Point(107, 45);
+            this.D2_2.Name = "D2_2";
+            this.D2_2.Size = new System.Drawing.Size(35, 35);
+            this.D2_2.TabIndex = 35;
+            this.D2_2.Text = "D2";
+            this.D2_2.UseVisualStyleBackColor = true;
+            // 
+            // D1_2
+            // 
+            this.D1_2.Location = new System.Drawing.Point(107, 11);
+            this.D1_2.Name = "D1_2";
+            this.D1_2.Size = new System.Drawing.Size(35, 35);
+            this.D1_2.TabIndex = 34;
+            this.D1_2.Text = "D1";
+            this.D1_2.UseVisualStyleBackColor = true;
+            // 
+            // C6_2
+            // 
+            this.C6_2.Location = new System.Drawing.Point(73, 181);
+            this.C6_2.Name = "C6_2";
+            this.C6_2.Size = new System.Drawing.Size(35, 35);
+            this.C6_2.TabIndex = 29;
+            this.C6_2.Text = "C6";
+            this.C6_2.UseVisualStyleBackColor = true;
+            // 
+            // C5_2
+            // 
+            this.C5_2.Location = new System.Drawing.Point(73, 147);
+            this.C5_2.Name = "C5_2";
+            this.C5_2.Size = new System.Drawing.Size(35, 35);
+            this.C5_2.TabIndex = 28;
+            this.C5_2.Text = "C5";
+            this.C5_2.UseVisualStyleBackColor = true;
+            // 
+            // C4_2
+            // 
+            this.C4_2.Location = new System.Drawing.Point(73, 113);
+            this.C4_2.Name = "C4_2";
+            this.C4_2.Size = new System.Drawing.Size(35, 35);
+            this.C4_2.TabIndex = 27;
+            this.C4_2.Text = "C4";
+            this.C4_2.UseVisualStyleBackColor = true;
+            // 
+            // C3_2
+            // 
+            this.C3_2.Location = new System.Drawing.Point(73, 79);
+            this.C3_2.Name = "C3_2";
+            this.C3_2.Size = new System.Drawing.Size(35, 35);
+            this.C3_2.TabIndex = 26;
+            this.C3_2.Text = "C3";
+            this.C3_2.UseVisualStyleBackColor = true;
+            // 
+            // C2_2
+            // 
+            this.C2_2.Location = new System.Drawing.Point(73, 45);
+            this.C2_2.Name = "C2_2";
+            this.C2_2.Size = new System.Drawing.Size(35, 35);
+            this.C2_2.TabIndex = 25;
+            this.C2_2.Text = "C2";
+            this.C2_2.UseVisualStyleBackColor = true;
+            // 
+            // C1_2
+            // 
+            this.C1_2.Location = new System.Drawing.Point(73, 11);
+            this.C1_2.Name = "C1_2";
+            this.C1_2.Size = new System.Drawing.Size(35, 35);
+            this.C1_2.TabIndex = 24;
+            this.C1_2.Text = "C1";
+            this.C1_2.UseVisualStyleBackColor = true;
+            // 
+            // B6_2
+            // 
+            this.B6_2.Location = new System.Drawing.Point(39, 181);
+            this.B6_2.Name = "B6_2";
+            this.B6_2.Size = new System.Drawing.Size(35, 35);
+            this.B6_2.TabIndex = 19;
+            this.B6_2.Text = "B6";
+            this.B6_2.UseVisualStyleBackColor = true;
+            // 
+            // B5_2
+            // 
+            this.B5_2.Location = new System.Drawing.Point(39, 147);
+            this.B5_2.Name = "B5_2";
+            this.B5_2.Size = new System.Drawing.Size(35, 35);
+            this.B5_2.TabIndex = 18;
+            this.B5_2.Text = "B5";
+            this.B5_2.UseVisualStyleBackColor = true;
+            // 
+            // B4_2
+            // 
+            this.B4_2.Location = new System.Drawing.Point(39, 113);
+            this.B4_2.Name = "B4_2";
+            this.B4_2.Size = new System.Drawing.Size(35, 35);
+            this.B4_2.TabIndex = 17;
+            this.B4_2.Text = "B4";
+            this.B4_2.UseVisualStyleBackColor = true;
+            // 
+            // B3_2
+            // 
+            this.B3_2.Location = new System.Drawing.Point(39, 79);
+            this.B3_2.Name = "B3_2";
+            this.B3_2.Size = new System.Drawing.Size(35, 35);
+            this.B3_2.TabIndex = 16;
+            this.B3_2.Text = "B3";
+            this.B3_2.UseVisualStyleBackColor = true;
+            // 
+            // B2_2
+            // 
+            this.B2_2.Location = new System.Drawing.Point(39, 45);
+            this.B2_2.Name = "B2_2";
+            this.B2_2.Size = new System.Drawing.Size(35, 35);
+            this.B2_2.TabIndex = 15;
+            this.B2_2.Text = "B2";
+            this.B2_2.UseVisualStyleBackColor = true;
+            // 
+            // B1_2
+            // 
+            this.B1_2.Location = new System.Drawing.Point(39, 11);
+            this.B1_2.Name = "B1_2";
+            this.B1_2.Size = new System.Drawing.Size(35, 35);
+            this.B1_2.TabIndex = 14;
+            this.B1_2.Text = "B1";
+            this.B1_2.UseVisualStyleBackColor = true;
+            // 
+            // A6_2
+            // 
+            this.A6_2.Location = new System.Drawing.Point(5, 181);
+            this.A6_2.Name = "A6_2";
+            this.A6_2.Size = new System.Drawing.Size(35, 35);
+            this.A6_2.TabIndex = 9;
+            this.A6_2.Text = "A6";
+            this.A6_2.UseVisualStyleBackColor = true;
+            // 
+            // A5_2
+            // 
+            this.A5_2.Location = new System.Drawing.Point(5, 147);
+            this.A5_2.Name = "A5_2";
+            this.A5_2.Size = new System.Drawing.Size(35, 35);
+            this.A5_2.TabIndex = 8;
+            this.A5_2.Text = "A5";
+            this.A5_2.UseVisualStyleBackColor = true;
+            // 
+            // A4_2
+            // 
+            this.A4_2.Location = new System.Drawing.Point(5, 113);
+            this.A4_2.Name = "A4_2";
+            this.A4_2.Size = new System.Drawing.Size(35, 35);
+            this.A4_2.TabIndex = 7;
+            this.A4_2.Text = "A4";
+            this.A4_2.UseVisualStyleBackColor = true;
+            // 
+            // A3_2
+            // 
+            this.A3_2.Location = new System.Drawing.Point(5, 79);
+            this.A3_2.Name = "A3_2";
+            this.A3_2.Size = new System.Drawing.Size(35, 35);
+            this.A3_2.TabIndex = 6;
+            this.A3_2.Text = "A3";
+            this.A3_2.UseVisualStyleBackColor = true;
+            // 
+            // A2_2
+            // 
+            this.A2_2.Location = new System.Drawing.Point(5, 45);
+            this.A2_2.Name = "A2_2";
+            this.A2_2.Size = new System.Drawing.Size(35, 35);
+            this.A2_2.TabIndex = 5;
+            this.A2_2.Text = "A2";
+            this.A2_2.UseVisualStyleBackColor = true;
+            this.A2_2.Click += new System.EventHandler(this.A2_2_Click);
+            // 
+            // A1_2
+            // 
+            this.A1_2.Location = new System.Drawing.Point(5, 11);
+            this.A1_2.Name = "A1_2";
+            this.A1_2.Size = new System.Drawing.Size(35, 35);
+            this.A1_2.TabIndex = 4;
+            this.A1_2.Text = "A1";
+            this.A1_2.UseVisualStyleBackColor = true;
+            // 
+            // seleccion1Lbl
+            // 
+            this.seleccion1Lbl.AutoSize = true;
+            this.seleccion1Lbl.Location = new System.Drawing.Point(12, 171);
+            this.seleccion1Lbl.Name = "seleccion1Lbl";
+            this.seleccion1Lbl.Size = new System.Drawing.Size(18, 16);
+            this.seleccion1Lbl.TabIndex = 94;
+            this.seleccion1Lbl.Text = "-1";
+            // 
+            // confirmar
+            // 
+            this.confirmar.Location = new System.Drawing.Point(314, 136);
+            this.confirmar.Name = "confirmar";
+            this.confirmar.Size = new System.Drawing.Size(140, 44);
+            this.confirmar.TabIndex = 95;
+            this.confirmar.Text = "Confirmar Seleccion";
+            this.confirmar.UseVisualStyleBackColor = true;
+            this.confirmar.Click += new System.EventHandler(this.confirmar_Click);
+            // 
+            // rendirse
+            // 
+            this.rendirse.Location = new System.Drawing.Point(314, 229);
+            this.rendirse.Name = "rendirse";
+            this.rendirse.Size = new System.Drawing.Size(140, 44);
+            this.rendirse.TabIndex = 96;
+            this.rendirse.Text = "Rendirse";
+            this.rendirse.UseVisualStyleBackColor = true;
+            // 
+            // estadoTableroLbl
+            // 
+            this.estadoTableroLbl.AutoSize = true;
+            this.estadoTableroLbl.Location = new System.Drawing.Point(12, 155);
+            this.estadoTableroLbl.Name = "estadoTableroLbl";
+            this.estadoTableroLbl.Size = new System.Drawing.Size(18, 16);
+            this.estadoTableroLbl.TabIndex = 97;
+            this.estadoTableroLbl.Text = "-1";
+            // 
+            // seleccion2Lbl
+            // 
+            this.seleccion2Lbl.AutoSize = true;
+            this.seleccion2Lbl.Location = new System.Drawing.Point(12, 187);
+            this.seleccion2Lbl.Name = "seleccion2Lbl";
+            this.seleccion2Lbl.Size = new System.Drawing.Size(18, 16);
+            this.seleccion2Lbl.TabIndex = 98;
+            this.seleccion2Lbl.Text = "-1";
+            // 
+            // seleccion3Lbl
+            // 
+            this.seleccion3Lbl.AutoSize = true;
+            this.seleccion3Lbl.Location = new System.Drawing.Point(12, 203);
+            this.seleccion3Lbl.Name = "seleccion3Lbl";
+            this.seleccion3Lbl.Size = new System.Drawing.Size(18, 16);
+            this.seleccion3Lbl.TabIndex = 99;
+            this.seleccion3Lbl.Text = "-1";
+            // 
+            // seleccion4Lbl
+            // 
+            this.seleccion4Lbl.AutoSize = true;
+            this.seleccion4Lbl.Location = new System.Drawing.Point(12, 219);
+            this.seleccion4Lbl.Name = "seleccion4Lbl";
+            this.seleccion4Lbl.Size = new System.Drawing.Size(18, 16);
+            this.seleccion4Lbl.TabIndex = 100;
+            this.seleccion4Lbl.Text = "-1";
+            // 
+            // seleccion5Lbl
+            // 
+            this.seleccion5Lbl.AutoSize = true;
+            this.seleccion5Lbl.Location = new System.Drawing.Point(12, 235);
+            this.seleccion5Lbl.Name = "seleccion5Lbl";
+            this.seleccion5Lbl.Size = new System.Drawing.Size(18, 16);
+            this.seleccion5Lbl.TabIndex = 101;
+            this.seleccion5Lbl.Text = "-1";
+            // 
+            // estadoPartidaLbl
+            // 
+            this.estadoPartidaLbl.AutoSize = true;
+            this.estadoPartidaLbl.Location = new System.Drawing.Point(707, 329);
+            this.estadoPartidaLbl.Name = "estadoPartidaLbl";
+            this.estadoPartidaLbl.Size = new System.Drawing.Size(44, 16);
+            this.estadoPartidaLbl.TabIndex = 102;
+            this.estadoPartidaLbl.Text = "label1";
+            // 
+            // adversarioLbl
+            // 
+            this.adversarioLbl.AutoSize = true;
+            this.adversarioLbl.Location = new System.Drawing.Point(663, 30);
+            this.adversarioLbl.Name = "adversarioLbl";
+            this.adversarioLbl.Size = new System.Drawing.Size(44, 16);
+            this.adversarioLbl.TabIndex = 103;
+            this.adversarioLbl.Text = "label1";
+            // 
+            // atacarLbl
+            // 
+            this.atacarLbl.AutoSize = true;
+            this.atacarLbl.Location = new System.Drawing.Point(707, 342);
+            this.atacarLbl.Name = "atacarLbl";
+            this.atacarLbl.Size = new System.Drawing.Size(49, 16);
+            this.atacarLbl.TabIndex = 104;
+            this.atacarLbl.Text = "ataque";
+            // 
+            // E3_2
+            // 
+            this.E3_2.Location = new System.Drawing.Point(141, 79);
+            this.E3_2.Name = "E3_2";
+            this.E3_2.Size = new System.Drawing.Size(35, 35);
+            this.E3_2.TabIndex = 46;
+            this.E3_2.Text = "E3";
+            this.E3_2.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(763, 550);
+            this.Controls.Add(this.atacarLbl);
+            this.Controls.Add(this.adversarioLbl);
+            this.Controls.Add(this.estadoPartidaLbl);
+            this.Controls.Add(this.seleccion5Lbl);
+            this.Controls.Add(this.seleccion4Lbl);
+            this.Controls.Add(this.seleccion3Lbl);
+            this.Controls.Add(this.seleccion2Lbl);
+            this.Controls.Add(this.estadoTableroLbl);
+            this.Controls.Add(this.rendirse);
+            this.Controls.Add(this.confirmar);
+            this.Controls.Add(this.seleccion1Lbl);
+            this.Controls.Add(this.suFlota);
+            this.Controls.Add(this.notificacionesLbl);
+            this.Controls.Add(this.miFlota);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.miFlota.ResumeLayout(false);
+            this.suFlota.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.GroupBox miFlota;
+        private System.Windows.Forms.Label notificacionesLbl;
+        private System.Windows.Forms.Button A3_1;
+        private System.Windows.Forms.Button A2_1;
+        private System.Windows.Forms.Button F6_1;
+        private System.Windows.Forms.Button F5_1;
+        private System.Windows.Forms.Button F4_1;
+        private System.Windows.Forms.Button F3_1;
+        private System.Windows.Forms.Button F2_1;
+        private System.Windows.Forms.Button F1_1;
+        private System.Windows.Forms.Button E6_1;
+        private System.Windows.Forms.Button E5_1;
+        private System.Windows.Forms.Button E4_1;
+        private System.Windows.Forms.Button E3_1;
+        private System.Windows.Forms.Button E2_1;
+        private System.Windows.Forms.Button E1_1;
+        private System.Windows.Forms.Button D6_1;
+        private System.Windows.Forms.Button D5_1;
+        private System.Windows.Forms.Button D4_1;
+        private System.Windows.Forms.Button D3_1;
+        private System.Windows.Forms.Button D2_1;
+        private System.Windows.Forms.Button D1_1;
+        private System.Windows.Forms.Button C6_1;
+        private System.Windows.Forms.Button C5_1;
+        private System.Windows.Forms.Button C4_1;
+        private System.Windows.Forms.Button C3_1;
+        private System.Windows.Forms.Button C2_1;
+        private System.Windows.Forms.Button C1_1;
+        private System.Windows.Forms.Button B6_1;
+        private System.Windows.Forms.Button B5_1;
+        private System.Windows.Forms.Button B4_1;
+        private System.Windows.Forms.Button B3_1;
+        private System.Windows.Forms.Button B2_1;
+        private System.Windows.Forms.Button B1_1;
+        private System.Windows.Forms.Button A6_1;
+        private System.Windows.Forms.Button A5_1;
+        private System.Windows.Forms.Button A4_1;
+        private System.Windows.Forms.GroupBox suFlota;
+        private System.Windows.Forms.Button F6_2;
+        private System.Windows.Forms.Button F5_2;
+        private System.Windows.Forms.Button F4_2;
+        private System.Windows.Forms.Button F3_2;
+        private System.Windows.Forms.Button F2_2;
+        private System.Windows.Forms.Button F1_2;
+        private System.Windows.Forms.Button E6_2;
+        private System.Windows.Forms.Button E5_2;
+        private System.Windows.Forms.Button E4_2;
+        private System.Windows.Forms.Button E2_2;
+        private System.Windows.Forms.Button E1_2;
+        private System.Windows.Forms.Button D6_2;
+        private System.Windows.Forms.Button D5_2;
+        private System.Windows.Forms.Button D4_2;
+        private System.Windows.Forms.Button D3_2;
+        private System.Windows.Forms.Button D2_2;
+        private System.Windows.Forms.Button D1_2;
+        private System.Windows.Forms.Button C6_2;
+        private System.Windows.Forms.Button C5_2;
+        private System.Windows.Forms.Button C4_2;
+        private System.Windows.Forms.Button C3_2;
+        private System.Windows.Forms.Button C2_2;
+        private System.Windows.Forms.Button C1_2;
+        private System.Windows.Forms.Button B6_2;
+        private System.Windows.Forms.Button B5_2;
+        private System.Windows.Forms.Button B4_2;
+        private System.Windows.Forms.Button B3_2;
+        private System.Windows.Forms.Button B2_2;
+        private System.Windows.Forms.Button B1_2;
+        private System.Windows.Forms.Button A6_2;
+        private System.Windows.Forms.Button A5_2;
+        private System.Windows.Forms.Button A4_2;
+        private System.Windows.Forms.Button A3_2;
+        private System.Windows.Forms.Button A2_2;
+        private System.Windows.Forms.Button A1_2;
+        private System.Windows.Forms.Label seleccion1Lbl;
+        private System.Windows.Forms.Button confirmar;
+        private System.Windows.Forms.Button rendirse;
+        private System.Windows.Forms.Label estadoTableroLbl;
+        private System.Windows.Forms.Label seleccion2Lbl;
+        private System.Windows.Forms.Label seleccion3Lbl;
+        private System.Windows.Forms.Label seleccion4Lbl;
+        private System.Windows.Forms.Label seleccion5Lbl;
+        private System.Windows.Forms.Label estadoPartidaLbl;
+        private System.Windows.Forms.Label adversarioLbl;
+        private System.Windows.Forms.Label atacarLbl;
+        private System.Windows.Forms.Button A1_1;
+        private System.Windows.Forms.Button E3_2;
+    }
+}
+

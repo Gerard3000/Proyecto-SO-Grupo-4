@@ -1,0 +1,88 @@
+
+
+CAMBIAR EL mensagePrinc EL LBL PARA QUE SE ACTUALICEN LAS INDICACIONES A LOS JUGADORES
+
+typedef struct{
+	int bote[3];
+	int bergantin1[3];
+	int bergantin2[3];
+	int posBergantin;
+	int destructor[4];
+	int portaaviones[5];
+}Tablero;
+
+typedef struct{
+	Tablero tablero[2]; //0 sera el que cree la invitacion, 1 el invitado
+	Tjugador player[2]; //0 sera el que cree la invitacion, 1 el invitado
+	int estadoP; //Estado de la partida
+	int estadoT[2]; //0 sera el que cree la invitacion, 1 el invitado
+	int puntuacion[2]; //0 sera el que cree la invitacion, 1 el invitado. UNDIR BOTE = 10 PUNTOS, UNDIR BERGANTIN 30 PUNTOS, UNDIR DESTRUCTOR 40 PUNTOS, UNDIR PORTAAVIONES 50 PUNTOS;
+}Tpartida;
+
+typedef struct{
+	Tpartida partidas[512];
+	int num;
+}Tjuego;
+
+
+private void AtenderCliente(){
+	int player;
+
+	TENEMOS QUE GUARDAR LA POSICION DEL VECTOR DE PLAYER DEL SOCKET QUE ESTA HACIENDO LA SOLICITUD POR LO QUE TENGO QUE TENER EN TJUGADOR UN INT PARA EL SOCKET DE CADA UNO;
+	SI QUEREMOS AÑADIR MAS DE UNA PARTIDA SIMULTANEA TAMBIEN BUSCAMOS EN QUE PARTIDA ESTA EL JUGADOR, AL HACER LA BUSQUEDA ANTERIOR GUARDAMOS LA POSICION DE LA PARTIDA EN EL VECTOR DE PARTIDAS;
+
+	HACEMOS EL STRTOK DE LA PRIMERA POSICION Y LA GUARDAMOS EN EL INT CODIGO;
+
+	if(codigo == 0)
+		copiar codigo de desconexion
+
+	if(codigo == 1){
+		COPIAR EL SELECT PARA COMPROBAR QUE EL USUARIO EXISTE
+		DEVOLVER SI EXISTE O NO CON EL MENSAJE DE USUARIO CORRECTO O INCORRECTO
+		
+		USUARIO CORRECTO("1/");
+		USUARIO INCORRRECTO("3/Usuario incorrecto!");
+	}
+
+	if(codigo == 2)
+		COPIAR CODIGO DE REGISTRO
+		
+		REGISTRO CORRECTO("3/");
+		USUARIO NO DISPONIBLE("3/");
+		
+		
+		DESPUES DE ACEPTARSE UNA INVITACION EL ESTADO DE LA PARTIDA PASA A 0 QUE SERIA LA ETAPA DE SELECCION DE BARCOS;
+
+	if(codigo == ){
+		RECIBO LOS VALORES 
+		verifico que el estado de la partida sea el que corresponde con el que toca
+		if(estadoP == 0){
+			if(player == 1){//copiaremos el codigo pero cambiamos las afectaciones al tablero 2 en vez del 1
+				if(estadoT1 == 0){
+					GUARDAMOS LOS VALORES DE LAS POSICIONES DE LOS BOTES EN EL STRUCT DEL PLAYER 1
+					Y AL GUARDAR ENVIAMOS CONFIRMACION DONDE EN EL CLIENTE EJECUTAREMOS EL posicionesConfirmadas(); , 
+					TAMBIEN TENEMOS QUE CAMBIAR EL ESTADO COSA QUE PODEMOS PASAR POR PARAMETRO O COMO DESPUES DE LA SELECCION DEL BARCO TOCA SELECCIONAR EL PRIMER BERGANTIN LO PODEMOS HACER AUTOMATICAMENTE EN EL CLIENTE;
+
+					
+				}
+				if(estadoT1 == 1){
+				
+					EN EL INT posBergantin LO IGUALAMOS AL 2 SI YA HEMOS GUARDADO LAS POSICIONES DEL BERGANTIN 1 POR LO QUE HACEMOS UN IF PARA VERIFICAR SI ESTE INT ES IGUAL A 2;
+				}
+			
+			
+			
+			
+			
+			
+			
+			}
+		
+		
+		
+		
+		
+		
+		}
+	}
+}
